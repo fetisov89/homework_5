@@ -11,7 +11,10 @@ public class Main {
         arr2[0] = 1.123;
         arr2[1] = 3.55;
         arr2[2] = 8.155;
-        char[] arr3 = new char[]{'a', 'g', 'y'};
+        char[] arr3 = new char[3];
+        arr3[0] = 'a';
+        arr3[1] = 'g';
+        arr3[2] = 'y';
         for (int i = 0; i < arr.length; i++) {
             if (i == arr.length - 1) {
                 System.out.print(arr[i] + "    ");
